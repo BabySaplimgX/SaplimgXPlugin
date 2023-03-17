@@ -10,7 +10,7 @@ import saplimgx.untitled.Plugin;
 
 public class TorchHandler implements Listener {
     public TorchHandler(Plugin plugin) {
-        Bukkit.getPluginManager().registerEvents(this, plugin);
+      //*  Bukkit.getPluginManager().registerEvents(this, plugin);
     }
 
     @EventHandler
